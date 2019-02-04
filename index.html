@@ -23,21 +23,17 @@
             margin: 0;
             padding: 20px;
         }
-        #buttondiv{
+        #button{
             text-align: center;
             font-family: 'Verdana';
             font-size: 16px;
-            padding: 10px 32px;
-
-
+            font-weight: bold;
+            padding: 14px 40px;
+            margin: 60px;
         }
         .button{
-            font-family: 'Verdana';
-            font-size: 16px;
-            padding: 10px 32px;
-            text-align: center;
-            border: none;
-            align-items: center;
+            width: 60px;
+            height: 30px;
 
         }
     </style>
@@ -45,10 +41,10 @@
 <body>
  <h1 id="title">JS Counter</h1> 
  <p id="counter"></p>
- <div id="buttondiv">
-        <button id="plus">+</button> 
-        <button id="reset">Reset</button>
-        <button id="less">-</button>
+ <div id="button">
+        <button id="plus" class="button">+</button> 
+        <button id="reset" class="button">Reset</button>
+        <button id="less" class="button">-</button>
  </div>
 </body>
 <script src="main.js"></script>
